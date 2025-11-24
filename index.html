@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English Listening Practice</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f4f4f4;
+            background: #eef2f3;
         }
         header {
-            background: #1E90FF;
+            background: #005bbb;
             color: white;
-            padding: 20px;
             text-align: center;
+            padding: 25px 10px;
         }
-        section {
-            padding: 20px;
-            margin: 20px;
+        header img {
+            margin-bottom: 10px;
+        }
+        .level {
             background: white;
-            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
         }
         h2 {
-            color: #1E90FF;
+            color: #005bbb;
         }
         audio {
             width: 100%;
-            margin: 10px 0;
+            margin-top: 10px;
+        }
+        .desc {
+            margin-bottom: 15px;
         }
         footer {
+            background: #ccc;
             text-align: center;
             padding: 15px;
-            background: #ddd;
             margin-top: 40px;
         }
     </style>
@@ -41,53 +48,93 @@
 <body>
 
 <header>
+    <img src="images/logo.png" alt="Logo" width="120">
     <h1>English Listening Practice</h1>
-    <p>Improve your listening skills from A1 to C1 levels</p>
+    <p>Improve your listening skills from A1 to C1</p>
 </header>
 
-<section>
-    <h2>Level A1</h2>
-    <p>Basic listening practice for beginners.</p>
-    <!-- Replace "audio1.mp3" with your real file name -->
+<!-- LEVEL A1 -->
+<div class="level">
+    <h2>Level A1 (Beginner)</h2>
+    <p class="desc"><b>Focus:</b> Survival English and very basic phrases. Simple and everyday vocabulary.</p>
+
+    <ul>
+        <li><b>Hello! My Basic World:</b> greetings, farewells, introducing yourself (name, age, nationality), immediate family, and household objects.</li>
+        <li><b>My Daily Life:</b> simple routines (wake up, eat, study/work), days of the week, telling the time, and basic leisure activities.</li>
+        <li><b>Where Is It?:</b> city places (store, park, bank), simple directions, food and drinks for ordering, and colors.</li>
+    </ul>
+
     <audio controls>
         <source src="audios/a1/audio1.mp3" type="audio/mpeg">
     </audio>
-</section>
+</div>
 
-<section>
-    <h2>Level A2</h2>
-    <p>Practice listening for elementary learners.</p>
+<!-- LEVEL A2 -->
+<div class="level">
+    <h2>Level A2 (Elementary)</h2>
+    <p class="desc"><b>Focus:</b> Communicating past and future experiences and describing with more detail.</p>
+
+    <ul>
+        <li><b>My Past and My Surroundings:</b> simple biography, describing your town and comparing it, weather and seasons.</li>
+        <li><b>Likes, Plans, and Experiences:</b> hobbies, preferences, weekend plans, vacations, telling past stories.</li>
+        <li><b>Daily Tasks and Health:</b> shopping (clothes, prices, sizes), ordering food, describing symptoms and parts of the body.</li>
+    </ul>
+
     <audio controls>
         <source src="audios/a2/audio1.mp3" type="audio/mpeg">
     </audio>
-</section>
+</div>
 
-<section>
-    <h2>Level B1</h2>
-    <p>Intermediate listening exercises.</p>
+<!-- LEVEL B1 -->
+<div class="level">
+    <h2>Level B1 (Intermediate)</h2>
+    <p class="desc"><b>Focus:</b> Starting, maintaining, and ending conversations. Expressing opinions and giving advice.</p>
+
+    <ul>
+        <li><b>Stories and Personal Experiences:</b> narrating anecdotes, achievements, dreams, and life experiences.</li>
+        <li><b>Opinions and Advice:</b> giving points of view on daily topics, expressing agreement/disagreement.</li>
+        <li><b>Culture and Lifestyle:</b> comparing customs, habits, and discussing future professional goals.</li>
+    </ul>
+
     <audio controls>
         <source src="audios/b1/audio1.mp3" type="audio/mpeg">
     </audio>
-</section>
+</div>
 
-<section>
-    <h2>Level B2</h2>
-    <p>Upper-intermediate listening audio.</p>
+<!-- LEVEL B2 -->
+<div class="level">
+    <h2>Level B2 (Upper-Intermediate)</h2>
+    <p class="desc"><b>Focus:</b> Fluency in abstract topics, structured arguments, and more refined language.</p>
+
+    <ul>
+        <li><b>Debates and Arguments:</b> advantages/disadvantages, defending a position, expressing hypotheses.</li>
+        <li><b>Relationships and Communication:</b> discussing different types of relationships, non-verbal language, idioms.</li>
+        <li><b>Culture and Society in Depth:</b> trends, media criticism, ethics, and values.</li>
+    </ul>
+
     <audio controls>
         <source src="audios/b2/audio1.mp3" type="audio/mpeg">
     </audio>
-</section>
+</div>
 
-<section>
-    <h2>Level C1</h2>
-    <p>Advanced listening practice.</p>
+<!-- LEVEL C1 -->
+<div class="level">
+    <h2>Level C1 (Advanced)</h2>
+    <p class="desc"><b>Focus:</b> Mastery of the language with precision and awareness of nuances. Idiomatic and specialized vocabulary.</p>
+
+    <ul>
+        <li><b>Abstract and Specialized Topics:</b> philosophy, science, globalisation, and expert fields.</li>
+        <li><b>Figurative Language and Humor:</b> idioms, wordplay, cultural humor, sarcasm.</li>
+        <li><b>Critical Analysis and Persuasion:</b> persuasive presentations, literary/text analysis, rhetorical strategies.</li>
+    </ul>
+
     <audio controls>
         <source src="audios/c1/audio1.mp3" type="audio/mpeg">
     </audio>
-</section>
+</div>
 
 <footer>
-    <p>© 2025 English Listening Practice Project</p>
+    <p>© 2025 Listening Practice Project</p>
 </footer>
 
 </body>
